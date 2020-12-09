@@ -63,7 +63,6 @@ const Form = () => {
                 variant="outlined"
                 fullWidth
                 autoComplete="fname"
-                inputRef={register}
                 error={!!errors.firstName}
                 helperText={errors.firstName?.message}
                 defaultValue=""
@@ -84,30 +83,32 @@ const Form = () => {
               />
             </Grid>
             <Grid item xs={12}>
-              <TextField
+              <Controller
+                as={TextField}
                 label="Email Address"
-                id="email"
                 name="email"
+                control={control}
                 variant="outlined"
-                inputRef={register}
                 fullWidth
                 autoComplete="email"
                 error={!!errors.email}
                 helperText={errors.email?.message}
+                defaultValue=""
               />
             </Grid>
             <Grid item xs={12}>
-              <TextField
+              <Controller
+                as={TextField}
                 label="Customer Query"
-                id="customerQuery"
                 name="customerQuery"
+                control={control}
                 variant="outlined"
-                inputRef={register}
                 fullWidth
+                autoComplete="off"
                 multiline={true}
                 rows={4}
                 rowsMax={8}
-                autoComplete="off"
+                defaultValue=""
               />
             </Grid>
           </Grid>
