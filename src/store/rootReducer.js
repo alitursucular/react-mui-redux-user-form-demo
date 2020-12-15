@@ -2,7 +2,26 @@ import * as actionTypes from "../store/actions";
 import { v4 as uuidv4 } from "uuid";
 
 const initialState = {
-  formEntries: [],
+  formEntries: [
+    {
+      id: "initial1-35e1-43b9-9709-671ce63448c8",
+      value: {
+        firstName: "Monroe",
+        surname: "Vire",
+        email: "monroevire@example.com",
+        customerQuery: "Query from Monroe Vire",
+      },
+    },
+    {
+      id: "initial2-35e1-43b9-9709-671ce63448c8",
+      value: {
+        firstName: "Delphine",
+        surname: "Atkins",
+        email: "delphineatkins@example.com",
+        customerQuery: "Query from Delphine Atkins",
+      },
+    },
+  ],
 };
 
 const reducer = (state = initialState, action) => {
