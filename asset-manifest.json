@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/react-mui-redux-user-form-demo/static/js/main.ff1f309a.chunk.js",
-    "main.js.map": "/react-mui-redux-user-form-demo/static/js/main.ff1f309a.chunk.js.map",
+    "main.js": "/react-mui-redux-user-form-demo/static/js/main.2c5a0d48.chunk.js",
+    "main.js.map": "/react-mui-redux-user-form-demo/static/js/main.2c5a0d48.chunk.js.map",
     "runtime-main.js": "/react-mui-redux-user-form-demo/static/js/runtime-main.64d98d42.js",
     "runtime-main.js.map": "/react-mui-redux-user-form-demo/static/js/runtime-main.64d98d42.js.map",
     "static/js/2.41c600ca.chunk.js": "/react-mui-redux-user-form-demo/static/js/2.41c600ca.chunk.js",
@@ -14,6 +14,6 @@
   "entrypoints": [
     "static/js/runtime-main.64d98d42.js",
     "static/js/2.41c600ca.chunk.js",
-    "static/js/main.ff1f309a.chunk.js"
+    "static/js/main.2c5a0d48.chunk.js"
   ]
 }
